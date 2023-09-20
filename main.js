@@ -1,7 +1,7 @@
-const content = document.querySelector('.content');
+const content = document.querySelector('.contentlar');
 
 for (let i = 1; i <= 9; i++) {
-  content.innerHTML += <div class="cell"></div>;
+  content.innerHTML += `<div class="cell"></div>`;
 }
 let cunt = 0;
 
