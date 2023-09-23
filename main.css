@@ -9,6 +9,7 @@ body {
 	height: 100vh;
 	width: 100vw;
 	user-select: none;
+	font-family: "Nunito", sans-serif;
 }
 
 .content {
@@ -34,13 +35,11 @@ body {
 	grid-template-columns: repeat(3, 1fr);
 }
 
-.cell {
-	width: 20vh;
-	height: 20vh;
+/* .cell {
 	display: grid;
 	place-items: center;
 	border: 1px solid white;
-}
+} */
 /* bacround rang  */
 html {
 	height: 100%;
@@ -117,6 +116,7 @@ input[type="number"]::-webkit-inner-spin-button {
 	text-align: center;
 	font-size: 30px;
 	font-weight: bold;
+	pointer-events: none;
 }
 
 .container {
