@@ -18,6 +18,10 @@ content.onclick = function (e) {
 	}
 };
 
+result.onclick = function (e) {
+	
+}
+
 function mer() {
 	let mem = document.getElementsByClassName("cell");
 	if (

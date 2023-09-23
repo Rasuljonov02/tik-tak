@@ -107,8 +107,19 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .result {
 	display: none;
-	width: 400px;
-	height: 200px;
+	width: 200px;
+	height: 50px;
 	background: none;
 	border: 2px solid white;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.container {
+	display: flex;
+	gap: 30px;
 }
