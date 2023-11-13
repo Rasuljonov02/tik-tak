@@ -5,10 +5,10 @@ import "./tel";
 
 
 
-// class Water {
-// 	constructor(public name: string) {}
-// 	H2O() {}
-// }
+class Water {
+	constructor(public name: string) {}
+	H2O() {}
+}
 
 // class Energetic extends Water {
 // 	energy() {}
