@@ -37,11 +37,11 @@ function barmen<T extends Water>(name: string, drink: T) {
 	}
 }
 
-barmen('', new Flash('Flash')); // Flash -> Energetic -> Water
-barmen('', new Adrenalin('Adrenalin')); // Adrenalin -> Energetic -> Water
-barmen('', new Sprite('Sprite')); // Sprite -> Gazli -> Water
-barmen('', new Cola('Cola')); // Cola -> Gazli -> Water
-barmen('', new Apple('Apple')); // Apple -> Fruit -> Water
-barmen('', new Banana('Banana')); // Banana -> Fruit -> Water
+barmen("", new Flash("Flash")); // Flash -> Energetic -> Water
+barmen("", new Adrenalin("Adrenalin")); // Adrenalin -> Energetic -> Water
+barmen("", new Sprite("Sprite")); // Sprite -> Gazli -> Water
+barmen("", new Cola("Cola")); // Cola -> Gazli -> Water
+barmen("", new Apple("Apple")); // Apple -> Fruit -> Water
+barmen("", new Banana("Banana")); // Banana -> Fruit -> Water
 
 // barmen('Kent', ); // Infer
