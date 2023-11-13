@@ -81,3 +81,4 @@
 # Base class
 
 # Generic Types
+# qoshinmacha
